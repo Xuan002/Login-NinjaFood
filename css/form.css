@@ -1,0 +1,102 @@
+.text-pricipal{
+    font-family: 'BentonSans Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 131.02%;
+    /* or 26px */
+
+    text-align: center;
+
+    color: white;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+input::placeholder {
+    text-align: calc(50% - 14px/2 + 68px);
+    padding-left: 14.13%;
+    
+    font-family: 'BentonSans Regular', 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    
+    color: #6d6d6d;
+    
+    mix-blend-mode: normal;
+    opacity: 20;
+}
+.form-itens{
+    box-sizing: border-box;
+    width: 325px;
+    height: 57px;
+    background: #FFFFFF;
+    opacity: 0.1;
+    border: 1px solid #F4F4F4;
+    box-shadow: 12px 26px 50px rgba(90, 108, 234, 0.07);
+    border-radius: 15px;
+}
+
+.text-paragrafo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 166.52%;
+    /* identical to box height, or 20px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    
+}
+.btn-social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-secundario{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 166.52%;
+    /* identical to box height, or 20px */
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    /* Linear */
+
+    background: linear-gradient(98.81deg, #53E88B -0.82%, #15BE77 101.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+.form-enviar{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-enviar{
+    font-family: 'BentonSans Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 131.02%;
+    /* identical to box height, or 21px */
+    margin-top: 36px;
+    width: 141px;
+    height: 57px;
+    color: #FFFFFF;
+    background: linear-gradient(98.81deg, #53E88B -0.82%, #15BE77 101.53%);
+    border-radius: 15px;
+}
